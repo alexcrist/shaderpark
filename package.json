@@ -2,6 +2,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "private": false,
+  "homepage": ".",
   "scripts": {
     "start": "babel --plugins babel-plugin-preval index.js | parcel index.html --open",
     "build": "babel --plugins babel-plugin-preval index.js | parcel build index.html",

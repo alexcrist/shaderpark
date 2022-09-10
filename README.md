@@ -1,4 +1,4 @@
-# Welcome to the Shader Park Template🎉
+# Shaderpark
 =================
 
 To setup run:
@@ -16,6 +16,8 @@ To build:
 yarn build
 ```
 
-Write your Shader Park code in the spCode string inside index.js
+Write Shader Park code in the spCode string inside index.js
 
-Find out more about [Shader Park](https://shaderpark.netlify.com/).
+## Bugs
+
+Before deploying, modify paths to start with `./` instead of `/`
