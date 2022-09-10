@@ -1,9 +1,9 @@
-import { generatedGLSLToMinimalRenderer} from 'shader-park-core';
+import { generatedGLSLToMinimalRenderer } from 'shader-park-core';
 import { preval } from 'babel-plugin-preval'
 
-let canvas = document.querySelector('.my-canvas');
+const canvas = document.querySelector('.my-canvas');
 
-let spCode = `
+const spCode = `
 // Options =============================================================
 
 const numParticles = 15;
@@ -114,7 +114,7 @@ for (const particle of particles) {
         displace(x, y, z);
     }
 
-    color(161, 228/255, 242);
+    color(161/255, 228/255, 242/255);
     lightDirection(ncos(time), nsin(time), ncos(time));
     shine(1.16);
     sphere(0.08);
