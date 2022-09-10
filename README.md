@@ -1,22 +1,12 @@
 # Shaderpark
-=================
 
-To setup run:
-```
-yarn install
-```
+https://alexcrist.github.io/shaderpark/
 
-To start the server:
-```
-yarn start
-```
+To setup run: `npm install`
 
-To build:
-```
-yarn build
-```
+To start the server: `npm start`
 
-Write Shader Park code in the spCode string inside index.js
+To build: `npm run build`
 
 ## Bugs
 
