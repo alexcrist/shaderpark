@@ -6,7 +6,7 @@ const canvas = document.querySelector('.my-canvas');
 const spCode = `
 // Options =============================================================
 
-const numParticles = 15;
+const numParticles = 12;
 const maxSteps = 9;
 const skipPercent = 30;
 const randomMovePercent = 30;
