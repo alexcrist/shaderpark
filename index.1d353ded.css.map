@@ -1,0 +1,1 @@
+{"mappings":"AAAA,OAMA,4BAAA,CADA,QAAA,CAHA,WAAA,CACA,QAAA,CACA,SAAA,CAHA,UAMA","sources":["style.css"],"sourcesContent":["canvas {\n  width: 100%;\n  height: 100%;\n  margin : 0px;\n  padding : 0px;\n  border : 0px;\n  background-color : transparent;\n}"],"names":[],"version":3,"file":"index.1d353ded.css.map"}
